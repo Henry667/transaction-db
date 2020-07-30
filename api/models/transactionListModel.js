@@ -13,8 +13,9 @@ var TransactionSchema = new Schema({
   description: {
     type: String
   },
-  runningbalance: {
-    type: Number
+  totalAmount: {
+    type: Number,
+    default: 0
   },
   Created_date: {
     type: Date,
